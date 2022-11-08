@@ -49,14 +49,13 @@ html {
   padding-left: 1%;
   padding-right: 1%;
 }
-
-/* Box of information about time and date  */
+/* Box of information about time and date  -  First box*/
 /* Box title */
 .box-title {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 3vw;
+  font-size: 24px;
   line-height: 48px;
   letter-spacing: 0.5em;
   color: #ffffff;
@@ -72,6 +71,8 @@ html {
   color: #ffffff;
   float: right;
 }
+
+
 
 .container {
   display: flex;
@@ -263,5 +264,15 @@ html {
     flex-direction: column;
     padding-left: 1%;
     padding-right: 1%;
+  }
+  .box-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    letter-spacing: 0.5em;
+    color: #ffffff;
+    float: left;
   }
 }
