@@ -40,7 +40,7 @@ export default function WeatherInfos() {
       <br />
       {/* Container box */}
       <div className="container">
-        <div className="column-1 box">
+        <div className="column-1">
           <div className="search-container">
             <input
               type="text"
