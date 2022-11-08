@@ -56,7 +56,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 48px;
+  line-height: 36px;
   letter-spacing: 0.5em;
   color: #ffffff;
   float: left;
@@ -71,8 +71,6 @@ html {
   color: #ffffff;
   float: right;
 }
-
-
 
 .container {
   display: flex;
@@ -166,7 +164,8 @@ html {
   box-shadow: none;
   padding-left: 15px;
   cursor: text;
-  width: 30%;
+  width: 40%;
+  height: 40px;
   border-radius: auto;
   background: #ffffff;
   color: black;
@@ -240,6 +239,7 @@ html {
   }
 }
 
+/* Responsive code for mobile devices viewport */
 @media screen and (max-width: 480px) {
   .row {
     display: flex;
@@ -266,12 +266,17 @@ html {
     padding-right: 1%;
   }
   .box-title {
-   
     font-size: 24px;
-   
   }
   .box-date-and-time-infos {
     font-size: 14px;
   }
-  
+  .search-box,
+  .search-box::placeholder {
+    font-size: 1px;
+  }
+  .search-box:focus {
+    
+    width: 45%;
+  }
 }
