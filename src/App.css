@@ -4,7 +4,8 @@
   font-family: "Poppins", sans-serif;
 }
 html {
-  background: url("assets/pramod-tiwari-uKs5NivqYwo-unsplash.jpg") no-repeat center center;
+  background: url("assets/pramod-tiwari-uKs5NivqYwo-unsplash.jpg") no-repeat
+    center center;
   -webkit-background-size: auto;
   -moz-background-size: auto;
   -o-background-size: auto;
@@ -49,16 +50,19 @@ html {
   padding-right: 1%;
 }
 
+/* Box of information about time and date  */
+/* Box title */
 .box-title {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 2vw;
+  font-size: 3vw;
   line-height: 48px;
   letter-spacing: 0.5em;
   color: #ffffff;
   float: left;
 }
+/* Box informations like time and date in combination design */
 .box-date-and-time-infos {
   font-family: "Poppins";
   font-style: normal;
@@ -80,8 +84,7 @@ html {
   margin: auto;
 }
 .row {
-  display:flex;
-
+  display: flex;
 }
 .first-column {
   flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
@@ -91,7 +94,6 @@ html {
   flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
   flex-basis: 50%; /* sets initial width to 70% */
 }
-
 
 .box {
   padding: 2%;
@@ -133,25 +135,6 @@ html {
   padding: 1%;
   padding-left: 2%;
 } */
-
-@media only screen and (max-width: 900px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .box {
-    margin: 0 0 1rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .row {
-    display: flex;
-    flex-direction: column;
-    padding: 2%;
-  }
-}
-
 
 .search-box {
   transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
@@ -243,4 +226,42 @@ html {
   /* identical to box height */
 
   color: #ffffff;
+}
+
+/* Responsive code of web app */
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    margin: 0 0 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+  }
+  .weather {
+    background: linear-gradient(
+      180deg,
+      #d9d9d9 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+    border: 1px solid #d3d3d3;
+    border-radius: 15px;
+    margin: auto;
+    width: 65%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
 }
