@@ -271,10 +271,7 @@ html {
   .box-date-and-time-infos {
     font-size: 14px;
   }
-  .search-box,
-  .search-box::placeholder {
-    font-size: 1px;
-  }
+  
   .search-box:focus {
     
     width: 45%;
