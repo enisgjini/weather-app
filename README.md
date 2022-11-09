@@ -19,7 +19,7 @@ Enis Gjini's Weather App is a programming application that interfaces with the O
 | Desktop preview                                 |
 | ![1667988553054](image/README/1667988553054.png)  |
 | Mobile preview                                  |
-|                                                 |
+| ![1667988568396](image/README/1667988568396.png)  |
 
 ## Technologies Used
 
