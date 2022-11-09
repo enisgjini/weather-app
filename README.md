@@ -19,7 +19,7 @@ This weather app is perfect for those who want to check the weather conditions i
 | Desktop preview                                 |
 | ![1667988553054](image/README/1667988553054.png)  |
 | Mobile preview                                  |
-| ![1667988568396](image/README/1667988568396.png)  |
+|                                                 |
 
 ## Technologies Used
 
