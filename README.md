@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Weather application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have built an application which serves as a contact list of a specific person who has about 100 contacts in that list.
+The list is filled with data thanks to the API called RANDOM USER GENERATOR.
+As a result of the data, there are approximately 100 rows of extracted data.
 
-## Available Scripts
+## Demo link
 
-In the project directory, you can run:
+https://moti-aktual.netlify.app/
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This weather app is perfect for those who want to check the weather conditions in their area or any other location. The app uses data from OpenWeatherMap API to provide accurate and up-to-date information. It is easy to use and perfect for those who want to stay informed about the weather conditions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+| Preview of web-app in desktop and mobile device |
+| ----------------------------------------------- |
+| Desktop preview                                 |
+| ![1667988553054](image/README/1667988553054.png)  |
+| Mobile preview                                  |
+| ![1667988568396](image/README/1667988568396.png)  |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+| #                                                                                                                                                  | #                                                                                                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [JavaScript frameworks](https://www.wappalyzer.com/technologies/javascript-frameworks/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer) | [React](https://www.wappalyzer.com/technologies/javascript-frameworks/react/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer) |
+| [CDN](https://www.wappalyzer.com/technologies/cdn/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer)                                     | [Netlify](https://www.wappalyzer.com/technologies/cdn/netlify/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer)               |
+| [Security](https://www.wappalyzer.com/technologies/security/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer)                           | [HSTS](https://www.wappalyzer.com/technologies/security/hsts/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer)                |
+| [PaaS](https://www.wappalyzer.com/technologies/paas/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer)                                   | [Netlify](https://www.wappalyzer.com/technologies/cdn/netlify/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer)               |
+| [Miscellaneous](https://www.wappalyzer.com/technologies/miscellaneous/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer)                 | [PWA](https://www.wappalyzer.com/technologies/miscellaneous/pwa/?utm_source=popup&utm_medium=extension&utm_campaign=wappalyzer)             |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation ( Run locally on your machine 💻 )
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```shell
+  git clone https://github.com/enisgjini/contact-list.git
+```
 
-### `npm run eject`
+Go to the project directory
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```shell
+ cd weather-application-master
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```shell
+npm install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Start the server
 
-## Learn More
+```shell
+npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Status
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Project status
 
-### Code Splitting
+   * **Completed:** Work on the project has finished, and all deliverables/tasks have been completed.
+2. Project phase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   * The project solution is being created
+3. Project health
 
-### Analyzing the Bundle Size
+   * The project is on schedule, within scope, and within budget. Project resources are available for project activities when needed.
+4. Risk / Issue details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   * Clear.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
