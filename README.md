@@ -1,8 +1,6 @@
 # Weather application
 
-I have built an application which serves as a contact list of a specific person who has about 100 contacts in that list.
-The list is filled with data thanks to the API called RANDOM USER GENERATOR.
-As a result of the data, there are approximately 100 rows of extracted data.
+Want to get weather information before it's too late? Enis Gjini's Weather App can help you out.
 
 ## Demo link
 
@@ -10,7 +8,9 @@ https://moti-aktual.netlify.app/
 
 ## Description
 
-This weather app is perfect for those who want to check the weather conditions in their area or any other location. The app uses data from OpenWeatherMap API to provide accurate and up-to-date information. It is easy to use and perfect for those who want to stay informed about the weather conditions.
+Enis Gjini's Weather App is a programming application that interfaces with the OpenWeatherMap API to provide accurate weather data for locations around the world. The app features a clean and intuitive UI that makes it easy to view current weather conditions, as well as forecasted weather for up to 7 days in the future. Users can also search for specific locations to get detailed weather information.
+
+
 
 ## Screenshots
 
@@ -73,3 +73,7 @@ npm run start
    * Clear.
 
 ## License
+
+MIT License 
+<br/>
+![](https://img.shields.io/github/license/enisgjini/weather-app?label=License&style=flat-square)
